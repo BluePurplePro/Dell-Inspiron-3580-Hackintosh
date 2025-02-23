@@ -28,7 +28,7 @@ _The hardware in this Machine is as follows_:
 - Audio: Realtek ALC236
 - Microphone: Realtek ALC236
 - Camera: USB Intergrated Webcam
-- SD Card Reader: Realtek Memory Card Reader (USB)
+- SD Card Reader: USB Realtek Memory Card Reader
 - HDMI 1.4
 
 # Drivers & Essential Kernel Extensions
@@ -72,7 +72,7 @@ _Working_:
 
 _Not working_:
 - Airdrop (Intel Wireless)
-- HDMI 4K (BIOS DVMT is 32MB)
+- HDMI 4K 30fps (BIOS DVMT is 32MB)
   
 # BIOS Settings
 - **General**
