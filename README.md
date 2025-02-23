@@ -19,15 +19,16 @@ To deploy this project properly, please obtain the EFI folder from this reposito
 _The hardware in this Machine is as follows_:
 - CPU: Intel Core i5-8265U (Whiskey Lake)
 - GPU: Intel UHD Graphics 620
-- Mobo: 
+- Mobo: Dell 0DCN56 Rev. A00
 - Memory: 2x4GB DDR4 2400MHz 
-- Drive: 
+- Drive: WDC SN530 NVMe 256GB
+- DVD: HL-DT-ST DVD+-RW GU90N
 - Keyboard & Touchpad: PS2 Keyboard & I2C Touchpad
 - Wifi & Bluetooth: Intel Wireless-AC 9560
 - Audio: Realtek ALC236
 - Microphone: Realtek ALC236
-- Camera: 
-- SD Card Reader:
+- Camera: USB Intergrated Webcam
+- SD Card Reader: Realtek Memory Card Reader (USB)
 - HDMI 1.4
 
 # Drivers & Essential Kernel Extensions
@@ -49,6 +50,7 @@ _The hardware in this Machine is as follows_:
 | I2C Touchpad | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
 | Intel 9560 Wifi | [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
 | Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)|
+| NVMe Drive | [CtlnaAHCIPort.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) & [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) |
 | Audio & Microphone | [AppleALC.kext](https://github.com/acidanthera/AppleALC) with layout-id 69  |
 | Camera & SD Card Reader | [USBToolBox.kext](https://github.com/USBToolBox/kext) & [UTBMap.kext](https://github.com/USBToolBox/tool)  |
 | Brightness Key (Fn + F11/F12)  | [BrightnessKeys.kext](https://github.com/acidanthera/BrightnessKeys)  |
@@ -64,6 +66,7 @@ _Working_:
 - Brightness Keys
 - Battery Status
 - Camera
+- DVD Drive
 - SD Card Reader
 - HDMI 1080p 60fps
 
