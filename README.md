@@ -61,6 +61,7 @@ _The hardware in this Machine is as follows_:
 _Working_:
 - iGPU
 - Internal/External Audio & Microphone
+- Ethernet port
 - Wifi & Bluetooth
 - Keyboard
 - Touchpad
