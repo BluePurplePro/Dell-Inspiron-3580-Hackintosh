@@ -75,13 +75,20 @@ _Not working_:
 - HDMI 4K (BIOS DVMT is 32MB)
   
 # BIOS Settings
-- **1**
-  - Intel Software Guard Extensions (SGX) ~> Disabled
-  - TPM Device ~> Available
-  - TPM State ~> Disabled
-- **2**
+- **General**
+  - Advanced Boot Options ~> Enable Legacy Option ROMS ~> Uncheck
+ 
+- **System Configuration**
+  - SATA Operation ~> AHCI
   - Virtualization Technology ~> Enabled
-- **3**
-  - Network Boot ~> Disabled
-  - Legacy Support ~> Disabled
-  - Secure Boot ~> Disabled
+- **Secure Boot**
+  - Secure Boot Enable ~> Uncheck
+- **Intel Software Guard Extensions**
+  - Intel SGX Enable ~> Disabled/Software Controlled
+- **POST Behavior**
+  - Fastboot ~> Thorough
+- **Virtualization Support**
+  - Virtualization ~> Enable Intel Virtualization Technology ~> Check
+  - VT for Direct I/O ~> Enable VT for Direct I/O ~> Uncheck
+> [!NOTE]
+> VT for Direct I/O could be enabled if Kernel ~> Quirk ~> DisableIoMaper is enabled
