@@ -28,7 +28,7 @@ _The hardware in this Machine is as follows_:
 - Wifi & Bluetooth: Intel Wireless-AC 9560
 - Audio: Realtek ALC236
 - Microphone: Realtek ALC236
-- Camera: USB Intergrated Webcam
+- Camera: USB integrated Webcam
 - SD Card Reader: USB Realtek Memory Card Reader
 - HDMI 1.4
 
