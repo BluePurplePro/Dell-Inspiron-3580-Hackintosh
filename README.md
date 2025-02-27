@@ -76,7 +76,9 @@ _Working_:
 _Not working_:
 - Airdrop (Intel Wireless)
 - HDMI 4K 30fps (BIOS DVMT is 32MB)
-  
+> [!NOTE]
+> HDMI 4K won't work unless the BIOS DVMT is set to 64MB. You could increase the DVMT Pre-Allocated value to 64MB in [this guide](https://github.com/BluePurplePro/Dell-Inspiron-15-3580-Hackintosh/blob/main/Increase_DVMT_Pre-Allocated_to_64MB_on_Dell_Inspiron_15_3580.md).
+
 # BIOS Settings
 - **General**
   - Advanced Boot Options ~> Enable Legacy Option ROMS ~> Uncheck
