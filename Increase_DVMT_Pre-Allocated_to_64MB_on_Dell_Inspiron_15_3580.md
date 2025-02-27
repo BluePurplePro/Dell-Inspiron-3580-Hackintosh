@@ -10,21 +10,13 @@ All you have to do is create a boot drive for editing value on 0x8E7 in Setup to
 
 ## Prepare the USB
 1. Take a thumb drive and format it in `FAT32`. Make sure to use `GPT` partitioning scheme.
-2. Download [Ru.efi](https://ruexe.blogspot.com/)
-3. Create the following directory tree:
+2. Download [EFI CFG RU.zip](https://github.com/user-attachments/files/19006164/EFI.CFG.RU.zip).
+3. Extract EFI_CFG_RU.zip to the USB created in step 1. The directory tree should look like this:
 ```
 EFI
 └── BOOT
-    └── Ru.efi
+    └── BOOTx64.efi
 ```
-4. Rename the **Ru.efi** to **BOOTx64.efi**. The directory tree should look like this:
-```
-EFI
-└── BOOT
-    └── Ru.efi
-```
-> [!NOTE]
-> For someone too lazy, just download [EFI CFG RU.zip](https://github.com/user-attachments/files/19006164/EFI.CFG.RU.zip) and extract to the USB created in step 1.
 
 # Boot from the USB and change the value on 0x8E7 in Setup to 0x2
 1. Boot from the pendrive and you will see a screen like this. Press Enter.
