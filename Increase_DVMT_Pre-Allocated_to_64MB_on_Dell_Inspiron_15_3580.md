@@ -11,7 +11,7 @@ All you have to do is create a boot drive for editing value on 0x8E7 in Setup to
 ## Prepare the USB
 1. Take a thumb drive and format it in `FAT32`. Make sure to use `GPT` partitioning scheme.
 2. Download [EFI CFG RU.zip](https://github.com/user-attachments/files/19006164/EFI.CFG.RU.zip).
-3. Extract EFI_CFG_RU.zip to the USB created in step 1. The directory tree should look like this:
+3. Extract EFI.CFG.RU.zip to the USB created in step 1. The directory tree should look like this:
 ```
 EFI
 └── BOOT
