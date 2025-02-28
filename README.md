@@ -30,7 +30,7 @@ _The hardware in this Machine is as follows_:
 - Microphone: Realtek ALC236
 - Camera: USB integrated Webcam
 - SD Card Reader: USB Realtek Memory Card Reader
-- HDMI 1.4
+- BIOS version: 1.30.0
 
 # Drivers & Essential Kernel Extensions
 | Required Drivers |
