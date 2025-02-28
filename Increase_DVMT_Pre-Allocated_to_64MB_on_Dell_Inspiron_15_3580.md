@@ -8,7 +8,7 @@ I already found the VarOffset (VarStoreInfo/VarName): 0x8E7, VarStoreId: 0x1 (Na
 ![00](https://github.com/user-attachments/assets/9b3c6d58-0426-4b96-b3b6-a10f62b3d3bf)
 
 > [!NOTE]
-> This method should work on Dell Vostro 3480/3580/3780 and Dell Inspiron 3480/3780, since those laptops do share the same BIOS.exe file
+> This method should work on Dell Vostro 3480/3580/3780 and Dell Inspiron 3480/3780, since those laptops share the same BIOS.exe file
 
 ## Prepare the USB
 1. Take a thumb drive and format it in `FAT32`. Make sure to use `GPT` partitioning scheme.
