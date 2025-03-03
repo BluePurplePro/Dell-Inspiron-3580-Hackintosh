@@ -29,13 +29,13 @@ EFI
 
 ![02](https://github.com/user-attachments/assets/bfc72a45-5e7b-4a10-bcfb-b39f6d67eddd)
 
-3. Scroll down to **Setup** and press Enter. Navigate to 0x8E7 (Row **08E0**, Colume **07**). After that, change this value to **02** ~> Press Enter. 
+3. Scroll down to **Setup** and press Enter. Navigate to 0x8E7 (Row **08E0**, Colume **07**) and change the value to `02` ~> Press Enter. 
 
 ![03](https://github.com/user-attachments/assets/9294133e-8723-47c8-9c20-dbc41075e4e2)
 
-4. Use **Ctrl** + **W** to save and **Alt** + **Q** to exit/reboot.
+4. Press **Ctrl** + **W** to save, then press **Alt** + **Q** to exit/reboot.
 
-5. Now you can change ``framebuffer-patch-enable`` value from `01000000` to `00000000` in ``Device Properties`` ~> ``PciRoot(0x0)/Pci(0x2,0x0)`` to disable the framebuffer patch
+5. Now you can change `framebuffer-patch-enable` value from `01000000` to `00000000` in ``Device Properties`` ~> ``PciRoot(0x0)/Pci(0x2,0x0)`` to disable the framebuffer patch (or delete `framebuffer-patch-enable`, `framebuffer-stolenmem` & `framebuffer-fbmem`)
 
 | Key | Type | Value
 | :--- | :--- | :--- |
