@@ -3,7 +3,7 @@
 - [MaLd0n's How to fixing your DVMT Pre-Allocated for the perfect Hackintosh](https://olarila.com/topic/40092-how-to-fixing-your-dvmt-pre-allocated-for-the-perfect-hackintosh/)
 
 ## Introduction
-I already found the VarOffset (VarStoreInfo/VarName): 0x8E7, VarStoreId: 0x1 (Name: Setup) inside the Inspiron 3580's BIOS (version 1.30). All you have to do is create a boot drive for editing value on 0x8E7 in Setup to 0x2.
+I already found the VarOffset/VarStoreInfo/VarName value (0x8E7) & VarStoreId (0x1|Name: Setup) inside the Inspiron 3580's BIOS (version 1.30). All you have to do is create a boot drive for editing value on 0x8E7 in Setup to 0x2.
 
 ![00](https://github.com/user-attachments/assets/9b3c6d58-0426-4b96-b3b6-a10f62b3d3bf)
 
@@ -35,5 +35,13 @@ EFI
 
 4. Use **Ctrl** + **W** to save and **Alt** + **Q** to exit/reboot.
 
-5. Now you can remove ``framebuffer-patch-enable`` in ``Device Properties`` ~> ``PciRoot(0x0)/Pci(0x2,0x0)``
+5. Now you can change ``framebuffer-patch-enable`` value from `01000000` to `00000000` in ``Device Properties`` ~> ``PciRoot(0x0)/Pci(0x2,0x0)`` to disable the framebuffer patch
+
+| Key | Type | Value
+| :--- | :--- | :--- |
+| framebuffer-patch-enable | Data | 00000000 |
+| framebuffer-stolenmem | Data | 00003001 |
+| framebuffer-fbmem | Data | 00009000 |
+
+   
 
