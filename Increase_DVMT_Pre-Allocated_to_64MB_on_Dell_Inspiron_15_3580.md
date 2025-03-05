@@ -4,12 +4,13 @@
 
 ## Introduction
 I already found the VarOffset/VarStoreInfo/VarName value (0x8E7) & VarStoreId (0x1|Name: Setup) inside the Inspiron 3580's BIOS (version 1.30). All you have to do is create a boot drive for editing value on 0x8E7 in Setup to 0x2.
-For the DVMT Memory Size, change the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
 
 ![00](https://github.com/user-attachments/assets/9b3c6d58-0426-4b96-b3b6-a10f62b3d3bf)
 
 > [!NOTE]
 > This method should work on Dell Vostro 3480/3580/3780 and Dell Inspiron 3480/3780, since those laptops share the same BIOS.exe file
+>
+> For the DVMT Memory Size, change the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
 
 ## Prepare the USB
 1. Take a thumb drive and format it in `FAT32`. Make sure to use `GPT` partitioning scheme.
