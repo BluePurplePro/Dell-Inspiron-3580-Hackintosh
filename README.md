@@ -1,4 +1,4 @@
-# Dell-Inspiron-15-3580-Hackintosh
+# Dell-Inspiron-3580-Hackintosh
 This repository and project hosts the files necessary to boot macOS Ventura successfully on the Dell Inspiron 15 3580 Laptop
 
 # DISCLAIMER
