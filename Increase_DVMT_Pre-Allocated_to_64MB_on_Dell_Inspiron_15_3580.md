@@ -9,8 +9,6 @@ I already found the VarOffset/VarStoreInfo/VarName value (0x8E7) & VarStoreId (0
 
 > [!NOTE]
 > This method should work on Dell Vostro 3480/3580/3780 and Dell Inspiron 3480/3780, since those laptops share the same BIOS.exe file
->
-> For the DVMT Memory Size, change the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
 
 ## Prepare the USB
 1. Take a thumb drive and format it in `FAT32`. Make sure to use `GPT` partitioning scheme.
@@ -45,5 +43,6 @@ EFI
 | framebuffer-stolenmem | Data | 00003001 |
 | framebuffer-fbmem | Data | 00009000 |
 
-   
-
+>[!Note]
+>For changing DVMT Memory Size, edit the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
+>For disabling CFG Lock, edit the value on 0x5C4 in Setup from 0x1 (Enabled) to 0x0 (Disabled)
