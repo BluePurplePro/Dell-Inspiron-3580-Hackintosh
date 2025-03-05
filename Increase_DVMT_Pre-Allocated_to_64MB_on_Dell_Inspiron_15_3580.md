@@ -44,5 +44,6 @@ EFI
 | framebuffer-fbmem | Data | 00009000 |
 
 >[!Note]
->For changing DVMT Memory Size, edit the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
->For disabling CFG Lock, edit the value on 0x5C4 in Setup from 0x1 (Enabled) to 0x0 (Disabled)
+>To change DVMT Memory Size, edit the value on 0x8E8 in Setup from 0x2 (256MB) to 0x3 (MAX)
+>
+>To disable CFG Lock, edit the value on 0x5C4 in Setup from 0x1 (Enabled) to 0x0 (Disabled)
