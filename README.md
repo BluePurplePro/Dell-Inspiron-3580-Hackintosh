@@ -24,12 +24,13 @@ _The hardware in this Machine is as follows_:
 - Drive: WDC SN530 NVMe 256GB
 - DVD: HL-DT-ST DVD+-RW GU90N
 - Keyboard & Touchpad: PS2 Keyboard & I2C Touchpad
-- Ethernet: Realtek RTL810x
+- Ethernet: Realtek RTL810xE
 - Wifi & Bluetooth: Intel Wireless-AC 9560
 - Audio: Realtek ALC236
 - Microphone: Realtek ALC236
 - Camera: USB integrated Webcam
 - SD Card Reader: USB Realtek Memory Card Reader
+- HDMI 1.4 port
 - BIOS version: 1.30.0
 
 # Drivers & Essential Kernel Extensions
@@ -49,7 +50,7 @@ _The hardware in this Machine is as follows_:
 | Intel UHD Graphics 620  | [Whatevergreen.kext](https://github.com/acidanthera/WhateverGreen)  |
 | PS2 Keyboard | [VoodooPS2Controller.kext](https://github.com/acidanthera/VoodooPS2)  |
 | I2C Touchpad | [VoodooI2C.kext and its satellite VoodooI2CHID.kext](https://github.com/VoodooI2C/VoodooI2C)  |
-| Realtek RTL810x | [RealtekRTL8100.kext](https://tonymacx86.com/attachments/realtekrtl8100-kext-zip.303340/) |
+| Realtek RTL810xE | [RealtekRTL8100.kext](https://tonymacx86.com/attachments/realtekrtl8100-kext-zip.303340/) |
 | Intel 9560 Wifi | [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm)|
 | Intel 9560 Bluetooth | [IntelBluetoothFirmware.kext; IntelBTPatcher.kext](https://github.com/OpenIntelWireless/IntelBluetoothFirmware) & [BlueToolFixup.kext](https://github.com/acidanthera/BrcmPatchRAM)|
 | NVMe Drive | [CtlnaAHCIPort.kext](https://github.com/dortania/OpenCore-Install-Guide/blob/master/extra-files/CtlnaAHCIPort.kext.zip) & [NVMeFix.kext](https://github.com/acidanthera/NVMeFix) |
